@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "MWF-MORAY-MDL2";
+    src: url("fonts/latest.woff2");
+    font-weight:600;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: "SegoeUI";
+    src:url("fonts/SegoeUI-Roman-VF_web.woff2");
+    font-weight:400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}

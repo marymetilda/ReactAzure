@@ -1,0 +1,136 @@
+nav { 
+     display:flex;
+    gap: 13vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+     padding: 15px 5px;
+    background-color: #56d5ef;
+}
+.navSection{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.title{
+    font-family: "SegoeUI";
+    font-size: 14px;
+    line-height: 0.5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.navitems1 {
+    display: flex;
+    gap: 14px;
+}
+
+.navItems2 {
+    display: flex;
+    gap: 14px;
+}
+
+.fa-angle-right {
+    transform: rotate(-90deg);
+}
+
+.navItem::after{
+    content: '\f107';
+    font-family: FontAwesome;
+    color:red;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    display: inline-block;
+    transform: rotate(0deg);
+    padding-top: 5px;
+}
+
+.navItem {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: "SegoeUI";
+    cursor: pointer;
+    
+}
+.navItem:hover {
+    text-decoration: underline;
+}
+.navItems{
+    font-size: 14px;
+    font-family: "SegoeUI";
+    cursor:pointer;
+    white-space: nowrap;
+}
+.navItems:hover{
+    text-decoration: underline;
+}
+
+.searchbar {
+    background-color: #00009f;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border:1px solid black;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.search {
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    
+}
+.fa-magnifying-glass {
+    display: inline-block;
+    transform: rotate(90deg);
+   font-style: normal;
+   font-size: 16px;
+   outline: none;
+   border: none;
+   background-color:transparent;
+}
+
+.navAccount {
+    font-family: "SegoeUI";
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.account {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.account:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 172, 0);
+}
+
+.signIn {
+    font-family: "SegoeUI";
+    font-size: 14px;
+    cursor: pointer;
+}
+.signIn:hover {
+    text-decoration: underline;
+    
+}
