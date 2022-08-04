@@ -1,10 +1,13 @@
 import React from "react";
+import NavItem from "../subComponents/navItem";
 import "./nav.css";
+import { VscSearch } from "react-icons/vsc";
+import { VscClose } from "react-icons/vsc";
 
 function Nav() {
   return (
     <nav>
-      <div className="navSection">
+      <div className="navSection1">
         <div className="icon">
           <svg
             aria-hidden="true"
@@ -33,55 +36,41 @@ function Nav() {
         </div>
 
         <div className="title">
-          <h3>Azure </h3>
+          <span>Azure </span>
         </div>
 
         <div className="navitems1">
-          <div className="navExplore">
-            <span className="navItem explore">Explore</span>
-          </div>
-          <div className="navProducts">
-            <span className="navItem products">Products</span>
-          </div>
-          <div className="navSolutions">
-            <span className="navItem solutions">Solutions</span>
-          </div>
-          <div className="navPricing">
-            <span className="navItem pricing">Pricing</span>
-          </div>
-          <div className="navPartners">
-            <span className="navItem partners">Partners</span>
-          </div>
-          <div className="navResources">
-            <span className="navItem resources">Resources</span>
-          </div>
+          <NavItem />
         </div>
       </div>
 
-      <div className="navSection">
+      <div className="navSection2">
         <div className="searchbar">
           <input type="search" className="search" placeholder="Search" />
-          <i class="fas fa-magnifying-glass"></i>
+          <VscSearch />
+          <VscClose className="closeIcon" />
         </div>
 
-        <div className="navItems2">
-          <div className="navDocs">
-            <span className="navItems docs">Docs</span>
+        <div className="navLastSection">
+          <div className="navItems2">
+            <div className="navDocs">
+              <span className="navItems docs">Docs</span>
+            </div>
+            <div className="navSupport">
+              <span className="navItems support">Support</span>
+            </div>
+            <div className="navContact">
+              <span className="navItems contact">Contact Sales</span>
+            </div>
           </div>
-          <div className="navSupport">
-            <span className="navItems support">Support</span>
-          </div>
-          <div className="navContact">
-            <span className="navItems contact">Contact Sales</span>
-          </div>
-        </div>
 
-        <div className="account">
-          <span className="navAccount">Free account</span>
-        </div>
+          <div className="account">
+            <span className="navAccount">Free account</span>
+          </div>
 
-        <div className="signIn">
-          <span className="Sign">Sign in</span>
+          <div className="signIn">
+            <span className="Sign">Sign in</span>
+          </div>
         </div>
       </div>
     </nav>

@@ -1,12 +1,15 @@
 import React from "react";
-import "./exploreAzure.css"
+import {MdKeyboardArrowRight} from "react-icons/md";
+import "./exploreAzure.css";
 
 function ExploreAzure() {
     return (
         <div className="exploreAzure">
         <span>Explore Azure resources and tools to help you adapt, optimize, and thrive</span>
+        <MdKeyboardArrowRight className="arrow-right" />
         </div>
     )
+   
 }
 
 export default ExploreAzure;

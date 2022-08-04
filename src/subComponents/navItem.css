@@ -1,0 +1,32 @@
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: "SegoeUI";
+    cursor: pointer;
+    color: var(--nav-Color);
+    opacity: 0.9;
+    
+}
+
+.navItem:hover {
+    text-decoration: underline;
+}
+
+ .arrow {
+    height: 16px;
+    width: 16px;
+    margin-top: 5px;
+
+} 
+
+.items {
+    display: flex;
+    /* border: 1px solid black; */
+    width: auto;
+    align-items: center;
+    padding: 10px 3px;
+    align-items: center;
+}
