@@ -1,6 +1,6 @@
 import React from "react";
 import {MdKeyboardArrowRight} from "react-icons/md";
-import "./exploreAzure.css";
+import "../css files/exploreAzure.css";
 
 function ExploreAzure() {
     return (

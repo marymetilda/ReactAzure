@@ -27,6 +27,12 @@
     /* border: 1px solid black; */
     width: auto;
     align-items: center;
-    padding: 10px 3px;
+    padding: 9px 3px;
     align-items: center;
+    margin-bottom: 2px;
+   
+}
+
+.navExplore {
+    margin-left: 4px;
 }

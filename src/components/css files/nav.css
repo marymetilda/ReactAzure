@@ -9,24 +9,25 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-     padding: 7px 13px;
+     padding: 7px 0 7px 12px;
     /* background-color: #56d5ef; */
 }
 .navSection1{
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 1.9vw;
 }
 
 .navSection2 {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2.2vw;
 }
 .navLastSection {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1vw;
+    margin-right: 0.5vw;
 }
 
 .icon {
@@ -52,12 +53,12 @@ nav {
 
 .navitems1 {
     display: flex;
-    gap: 10px;
+    gap: .5vw;
 }
 
 .navItems2 {
     display: flex;
-    gap: 14px;
+    gap: 1.4vw;
 }
 
 .fa-angle-right {
@@ -86,6 +87,8 @@ nav {
     border-radius: 4px;
     height: 32px;
     box-sizing: border-box;
+    margin-bottom: 1px;
+    padding-bottom: 2px;
  
 }
 
@@ -101,6 +104,13 @@ nav {
     min-height: 32px;
     font-family: "SegoeUI";
 }
+.searchIcon{
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
+}
+
+
 .closeIcon {
     width: 60px;
     height: 60px;
@@ -117,7 +127,7 @@ nav {
 
 .account {
     background-color: #89c402;
-    padding: 5px 10px;
+    padding: 6px 9px;
     border: 1px solid #6f9e02;
     border-radius: 4px;
     cursor: pointer;

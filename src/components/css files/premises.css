@@ -1,0 +1,11 @@
+.PremiseText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #1a1a1f;
+    font-weight: 600;
+line-height: 1.2;
+font-family: 'SegoeUI';
+padding-top: 60px;
+}

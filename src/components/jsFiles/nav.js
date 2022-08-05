@@ -1,6 +1,6 @@
 import React from "react";
-import NavItem from "../subComponents/navItem";
-import "./nav.css";
+import NavItem from "../../subComponents/navItem";
+import "../css files/nav.css";
 import { VscSearch } from "react-icons/vsc";
 import { VscClose } from "react-icons/vsc";
 
@@ -47,7 +47,7 @@ function Nav() {
       <div className="navSection2">
         <div className="searchbar">
           <input type="search" className="search" placeholder="Search" />
-          <VscSearch />
+          <VscSearch className="searchIcon"/>
           <VscClose className="closeIcon" />
         </div>
 
