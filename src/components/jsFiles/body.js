@@ -2,7 +2,7 @@ import React from "react";
 import ExploreAzure from "./exploreAzure";
 import Banner from "./banner";
 import Premises from "./premises";
-import CardSection1 from "./cardSection1";
+import FirstCardSection from "./firstCardSection";
 
 function Body() {
     return (
@@ -10,7 +10,7 @@ function Body() {
            <ExploreAzure />
            <Banner />
            <Premises />
-           <CardSection1 />
+           <FirstCardSection />
         </div>
     );
 }

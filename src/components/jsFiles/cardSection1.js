@@ -3,7 +3,7 @@ import "../css files/cardSection1.css";
 
 
 const names ={
-    name1: 'Explore',
+    card1: 'cardSectionAccelerate',
 }
 
 class CardSection1 extends Component{
@@ -17,7 +17,7 @@ class CardSection1 extends Component{
         }
     }
  render() {
-    return( <div className={`cardSection ${names.name1}`}>
+    return( <div className={`card ${names.card1}`}>
       <div className="cards">
         <div className="cardText">
             <span>{this.state.item1.headline}</span>
