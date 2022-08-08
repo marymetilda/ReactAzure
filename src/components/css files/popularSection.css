@@ -1,0 +1,59 @@
+.popularSection {
+  min-width: 18%;
+  width:25%;
+}
+
+.popular {
+  color: #1a1a1f;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-left: 4px solid #0062ad;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.popular:hover {
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+}
+.allProducts {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0062ad;
+  transition: color 0.15s ease-in-out;
+  line-height: 1.5;
+  font-family: "SegoeUI";
+}
+
+.allProduct:hover .allProducts {
+  color: #002847;
+  text-decoration: underline;
+}
+.allProduct {
+  margin-bottom: 14px;
+  margin-top: 12px;
+  padding-left: 12px;
+  padding-top: 12px;
+  background-color: transparent;
+  border: none;
+  border-left: 4px solid transparent;
+  cursor: pointer;
+}
+.arrowProduct {
+    margin-left: 0.2rem;
+    padding-top: 0.3rem;
+}
+.arrowProduct:hover {
+    margin-left: 0.3rem;
+}
+.allProduct:hover .arrowProduct{
+    margin-left: 0.3rem;
+}

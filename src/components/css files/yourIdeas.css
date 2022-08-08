@@ -1,0 +1,16 @@
+.yourIdeas {
+    background-color: #f8f9fa;
+    padding-bottom: 60px;
+}
+
+.ideas {
+  justify-content: flex-start;
+  padding-left: .9375rem;
+padding-right: .9375rem;
+}
+
+.ideasSecondSection {
+    margin-top: 48px;
+    padding-left: .9375rem;
+    display: flex;
+}

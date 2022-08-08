@@ -1,0 +1,66 @@
+
+
+.screenMain{
+    width:25%;
+    margin-left: 20px;
+    
+}
+
+.screenImageImg{
+    height:470px;
+    border-top:28px;
+    border-left:28px;
+    border-bottom:28px;
+    border-right:0px;
+    border-color:black;
+    border-style:solid;
+    border-radius:12px 0px  0px 12px;
+    box-shadow:0 10px 20px rgb(0 0 0 / 14%);
+}
+
+.screenImage{
+    height:530px;
+    
+}
+
+.leftArrow{
+    width:18px;
+    height:16px;
+}
+
+.screenText{
+    color:#0062ad;
+    font-size:14px;
+    line-height: 1.5;
+}
+
+.arrowTextSection{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.screenImageSection{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    cursor:pointer;
+    margin-left:25px;
+   
+   
+}
+
+.screenMain:hover{
+    width:25%;
+}
+
+.screenMain:hover .screenImageSection{
+   transition:all .5s ease-in-out;
+   /* width:100%; */
+   margin:0px;
+}
+
+.arrowTextSection1{
+    display: none;
+}

@@ -8,10 +8,10 @@
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d9e2936c5d33a39347dec22866d20dc9fa13c06e112314a34f7b7eb57cee8dbb/images/page/home/hero-desktop.webp");
   background-size: cover;
   background-position: center center;
-  height: 102vh;
-  width: 100vw;
+  height: 700px;
   padding-top: 72px;
 }
+
 .introTextSection {
   width: 50%;
   float: left;

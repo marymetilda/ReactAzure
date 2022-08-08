@@ -3,6 +3,8 @@ import ExploreAzure from "./exploreAzure";
 import Banner from "./banner";
 import Premises from "./premises";
 import FirstCardSection from "./firstCardSection";
+import New from "./new";
+import YourIdeas from "./yourIdeas";
 
 function Body() {
     return (
@@ -11,6 +13,8 @@ function Body() {
            <Banner />
            <Premises />
            <FirstCardSection />
+           <New />
+           <YourIdeas />
         </div>
     );
 }

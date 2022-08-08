@@ -12,11 +12,10 @@ class CardSection2 extends Component {
       text: "Confidently set up your cloud environment with help from the Azure Migration and Modernization Program.",
     },
   };
-
   render() {
     return (
       <div className="cardSection2">
-        <div className="firstCard">
+        <div className="cardCommon firstCard">
           <img
             src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/empower.webp"
             className="cardImage empower"
@@ -26,7 +25,7 @@ class CardSection2 extends Component {
             <p>{this.state.card1.text}</p>
           </div>
         </div>
-        <div className="secondCard">
+        <div className="cardCommon secondCard">
             <img src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/expert-help.webp" className="cardImage getExpert" />
             <div className="cardTextSection">
                 <span className="cardHeadline">{this.state.card2.headline}</span>

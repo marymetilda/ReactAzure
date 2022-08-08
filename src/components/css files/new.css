@@ -1,0 +1,19 @@
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    padding: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+.new span {
+    color: #1a1a1f;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: "SegoeUI";
+    margin-right: 36px;
+}
