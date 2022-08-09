@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "../css files/card.css";
+import "../components/css files/card.css";
 
  
 function Card(props) {
@@ -9,7 +9,7 @@ function Card(props) {
                 <img src={props.img} />
                 <p>{props.text}</p>
                 </div>
-                <span>{props.spanText}</span>
+                <span className="cardSpan">{props.spanText}</span>
             </div>
         )
     }

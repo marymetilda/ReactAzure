@@ -1,4 +1,6 @@
 .ideasCardSection{
+    padding-bottom: 60px;
+    width: 73%;
     display: grid;
     column-gap: 30px;
     row-gap: 24px;

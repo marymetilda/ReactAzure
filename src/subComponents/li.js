@@ -1,5 +1,5 @@
 import React from "react";
-import "../css files/li.css"
+import "../components/css files/li.css"
 
 function Li(props){
     return(

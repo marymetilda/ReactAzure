@@ -1,5 +1,5 @@
 import React from "react";
-import "../css files/popularSection.css";
+import "../components/css files/popularSection.css";
 import { MdArrowForwardIos } from "react-icons/md";
 import Li from "./li";
 

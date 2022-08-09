@@ -1,13 +1,12 @@
 
 
 .screenMain{
-    width:25%;
-    margin-left: 20px;
+    margin-left: 15px;
     
 }
 
 .screenImageImg{
-    height:470px;
+    height: 523px;
     border-top:28px;
     border-left:28px;
     border-bottom:28px;
@@ -18,14 +17,11 @@
     box-shadow:0 10px 20px rgb(0 0 0 / 14%);
 }
 
-.screenImage{
-    height:530px;
-    
-}
 
 .leftArrow{
-    width:18px;
+    width:23px;
     height:16px;
+    color:#0062ad;
 }
 
 .screenText{
@@ -35,9 +31,14 @@
 }
 
 .arrowTextSection{
-    display:flex;
-    gap:10px;
+    display: flex;
     align-items: center;
+    gap:10px;
+    font-family: "SegoeUI";
+    max-width: 30ch;
+    border: 2px solid transparent;
+    width: auto;
+    padding: 0 12px 0 40px;
 }
 
 .screenImageSection{
@@ -46,7 +47,7 @@
     flex-direction:column;
     gap:10px;
     cursor:pointer;
-    margin-left:25px;
+    margin-left:35px;
    
    
 }

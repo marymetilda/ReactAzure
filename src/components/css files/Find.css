@@ -1,0 +1,128 @@
+.innovationSection {
+  padding-bottom: 10px;
+}
+
+.title{
+  color: #1a1a1f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.costomerIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.custButton {
+  filter: grayscale(100%);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid transparent;
+  padding: 12px;
+  background-color: transparent;
+  height: 84px;
+  width: 150px;
+  overflow: visible;
+}
+
+.custButtonActive {
+  filter: none;
+  border: none;
+  border-bottom: 3px solid #0078d4;
+  background-color: #fff;
+}
+
+.custButton:hover {
+  filter: none;
+  background-color: #cdd6df;
+}
+
+.custButtonSecActive {
+  padding: 5px;
+  border: 2px solid #4c4c51;
+}
+.custImage {
+  display: none;
+}
+.customerImages{
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.custImageActive {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  max-height: 700px;
+  max-width: 1920px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.customerTextActive {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+}
+.customerText{
+  display: none;
+}
+.custText{
+  width: 48%;
+  margin-left: 10px;
+  background-color: rgba(26,26,31,.94);
+color: #f8f9fa;
+border-radius: 6px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.14);
+padding: 24px;
+border: 1px solid transparent;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+font-family: "SegoeUI";
+}
+
+.custText p{
+  font-size: 20px;
+  line-height: 1.3;
+  margin:0 0 9px;
+}
+
+.caseButton{
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: transparent;
+  color:#f8f9fa;
+  border:none;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  gap:2px;
+  cursor: pointer;
+}
+
+.caseButton:hover {
+  text-decoration: none;
+}
+.caseButton:hover .custArrow{
+  padding-left: 3px;
+}

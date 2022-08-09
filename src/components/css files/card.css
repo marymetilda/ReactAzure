@@ -39,3 +39,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.card2:hover .cardSpan{
+    text-decoration: underline;
+}

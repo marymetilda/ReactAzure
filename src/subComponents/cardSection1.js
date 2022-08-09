@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../css files/cardSection1.css";
+import "../components/css files/cardSection1.css";
 
 
 const names ={

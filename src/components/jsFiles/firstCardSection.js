@@ -1,7 +1,7 @@
 import React from "react";
 import "../css files/firstCardSection.css"
-import CardSection1 from "./cardSection1";
-import CardSection2 from "./cardSection2";
+import CardSection1 from "../../subComponents/cardSection1";
+import CardSection2 from "../../subComponents/cardSection2";
 
 function FirstCardSection() {
     return(
