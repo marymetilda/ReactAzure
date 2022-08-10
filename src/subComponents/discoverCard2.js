@@ -7,7 +7,7 @@ function DiscoverCard2(props){
 
     return(
         <div className="imageCard card" style={`background-image: url(${props.BackgroundImage})`}>
-            hello
+            <span>hello</span>
         </div>
     )
 }
