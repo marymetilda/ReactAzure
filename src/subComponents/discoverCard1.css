@@ -1,54 +1,55 @@
 .disCard {
-    height:310px;
-    width:290px;
-    background-color:#fff;
-    border-radius:6px;
-    border:1px solid transparent;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-    cursor: pointer;
+  height: 310px;
+  width: 290px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  cursor: pointer;
+  /* grid-template-columns: repeat(1fr); */
 }
 
-
-.disCardHeadline{
-    color:#4c4c51;
-    font-weight:600;
-    font-size:12px;
-    cursor:pointer;
-    line-height:1.5;
-    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
-
+.disCardHeadline {
+  color: #4c4c51;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 1.5;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
-.disCardText{
-    color:#2e2e33;
-    text-decoration:none;
-    background-color:transparent;
-    cursor:pointer;
-    font-size:16px;
-    font-weight:400;
-    line-height:1.5;
-    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+.disCardText {
+  color: #2e2e33;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
-.disCardService{
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-    padding-left:10px;
+.disCardService {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
 }
 
-.disCardImage{
-    border-radius:6px 6px 0px 0px;
+.disCardImage {
+  border-radius: 6px 6px 0px 0px;
 }
 
-.disCard:hover .disCardText{
-    text-decoration:underline;
+.disCard:hover .disCardText {
+  text-decoration: underline;
 }
 
-.disCard:hover{
-    transition:all .2s ease-in-out;
-    box-shadow:0 5px 10px rgb(0 0 0 / 14%);
+.disCard:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 14%);
 }

@@ -1,0 +1,50 @@
+.seeHow {
+  position: relative;
+  height: 620px;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
+
+.customTextActive{
+    width:58%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+}
+
+.textbody {
+    color:#f4f5f6;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin:0 0 12px;
+    font-family: "SegoeUI";
+}
+
+.custText1 {
+    width:auto;
+}
+
+.watchButtons {
+    font-size: 16px;
+    display: flex;
+align-items: center;
+}
+
+.videoIcon{
+    width:26px;
+    height: 26px;
+    color:#50e6ff;
+}
+
+.watchButtons span{
+    display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.check{
+    padding-bottom: 10px;
+}

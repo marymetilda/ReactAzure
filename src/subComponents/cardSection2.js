@@ -19,6 +19,7 @@ class CardSection2 extends Component {
           <img
             src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/empower.webp"
             className="cardImage empower"
+            alt="cardsection1"
           />
           <div className="cardTextSection">
             <span className="cardHeadline">{this.state.card1.headline}</span>
@@ -26,7 +27,7 @@ class CardSection2 extends Component {
           </div>
         </div>
         <div className="cardCommon secondCard">
-            <img src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/expert-help.webp" className="cardImage getExpert" />
+            <img src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/expert-help.webp" className="cardImage getExpert" alt="cardsection2" />
             <div className="cardTextSection">
                 <span className="cardHeadline">{this.state.card2.headline}</span>
                 <p>{this.state.card2.text}</p>

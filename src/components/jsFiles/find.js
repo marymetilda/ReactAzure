@@ -3,9 +3,10 @@ import "../css files/Find.css";
 import CustomerIcon from "../../subComponents/customerIcon";
 import CustomerImages from "../../subComponents/customerImages";
 import CustomerText from "../../subComponents/customerText";
+// import {CustIcon} from "./Constants";
 
 function Find() {
-  const custIcon = {
+  const CustIcon = {
     forza:
       "https://azurecomcdn.azureedge.net/cvt-a7e0362205437bd001caa362ccfe82096680094b5b6a3e91ed7e46d8730853a2/images/page/home/customer-tabs/forza5-logo.svg",
     NHS: "https://azurecomcdn.azureedge.net/cvt-a7e0362205437bd001caa362ccfe82096680094b5b6a3e91ed7e46d8730853a2/images/page/home/customer-tabs/nhs-logo.svg",
@@ -14,8 +15,10 @@ function Find() {
     pepsi:
       "https://azurecomcdn.azureedge.net/cvt-a7e0362205437bd001caa362ccfe82096680094b5b6a3e91ed7e46d8730853a2/images/page/home/customer-tabs/pepsico-logo.svg",
     gel: "https://azurecomcdn.azureedge.net/cvt-a7e0362205437bd001caa362ccfe82096680094b5b6a3e91ed7e46d8730853a2/images/page/home/customer-tabs/ge-logo.svg",
-  };
+  }
 
+
+  
   const custImg = {
     forza:
       "https://azurecomcdn.azureedge.net/cvt-a7e0362205437bd001caa362ccfe82096680094b5b6a3e91ed7e46d8730853a2/images/page/home/customer-tabs/forza5-desktop.webp",
@@ -40,7 +43,7 @@ function Find() {
 
   return (
     <div class="innovationSection">
-      <div class="title">
+      <div class="titleInnovation">
         <h2>Find out how these customers are innovating with Azure</h2>
       </div>
       <div class="costomerIcons">
@@ -48,37 +51,37 @@ function Find() {
           divName="custButtonSecActive"
           buttonClass="custButtonActive"
           cust="forza"
-          custIcon={custIcon.forza}
+          custIcon={CustIcon.forza}
         />
         <CustomerIcon
           divName="custButtonSec"
           buttonClass="custButton"
           cust="NHS"
-          custIcon={custIcon.NHS}
+          custIcon={CustIcon.NHS}
         />
         <CustomerIcon
           divName="custButtonSec"
           buttonClass="custButton"
           cust="NBA"
-          custIcon={custIcon.NBA}
+          custIcon={CustIcon.NBA}
         />
         <CustomerIcon
           divName="custButtonSec"
           buttonClass="custButton"
           cust="ACS"
-          custIcon={custIcon.ACS}
+          custIcon={CustIcon.ACS}
         />
         <CustomerIcon
           divName="custButtonSec"
           buttonClass="custButton"
           cust="pepsi"
-          custIcon={custIcon.pepsi}
+          custIcon={CustIcon.pepsi}
         />
         <CustomerIcon
           divName="custButtonSec"
           buttonClass="custButton"
           cust="gel"
-          custIcon={custIcon.gel}
+          custIcon={CustIcon.gel}
         />
       </div>
       <div className="customerImages">

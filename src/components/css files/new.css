@@ -17,3 +17,17 @@
     font-family: "SegoeUI";
     margin-right: 36px;
 }
+
+
+.button2 span {
+    background-color: transparent;
+    color: #0062ad;
+    font-size: 14px;
+    font-weight: 600;
+    margin:0;
+}
+
+.button2:hover span{
+    text-decoration: underline;
+    color:#fff;
+}

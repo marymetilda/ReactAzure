@@ -1,0 +1,32 @@
+.imageCard {
+  position: relative;
+  height: 310px;
+  /* width: 50%; */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.innoCardTextSection {
+  padding: 24px;
+}
+
+.cardSpan2 {
+  align-self: end;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.5;
+  font-family: "SegoeUI";
+  background-color: transparent;
+  color: #fff;
+}
+
+.imageCard:hover .cardSpan {
+  text-decoration: underline;
+}

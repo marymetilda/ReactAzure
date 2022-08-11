@@ -1,8 +1,57 @@
-.mainTitle{
-    color:#1a1a1f;
-    font-size:24px;
-    font-weight:600;
-    line-height:1.2;
-    text-align:center;
-    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+.discover{
+    padding: 84px 0;
 }
+
+.mainTitle {
+  color: #1a1a1f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.discoverCardSection1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 24px;
+  margin: 0;
+  padding: 0;
+  margin-top: 36px;
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+.disCar1 {
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+.disCar2 {
+  grid-row: 1;
+  grid-column: 2 / 3;
+}
+
+.disCar3 {
+  grid-row: 1;
+  grid-column: 3 / 5;
+}
+
+.disCar4 {
+  grid-row: 2;
+  grid-column: 1 / 2;
+}
+.disCar5 {
+    grid-row: 2;
+    grid-column: 2 / 4;
+  }
+  
+  .disCar6 {
+    grid-row: 2;
+    grid-column: 4 / 5;
+  }
+  
+

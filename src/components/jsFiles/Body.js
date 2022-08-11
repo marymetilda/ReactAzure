@@ -8,6 +8,8 @@ import YourIdeas from "./yourIdeas";
 import Find from "./find";
 import Accelerate from "./accelerate";
 import Discover from "./discover";
+import SeeHow from "./SeeHow";
+import LastCardSection from "./LastCardSection";
 
 function Body() {
   return (
@@ -21,6 +23,8 @@ function Body() {
       <Find />
       <Accelerate />
       <Discover />
+      <SeeHow />
+      <LastCardSection />
     </div>
   );
 }
