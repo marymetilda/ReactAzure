@@ -1,0 +1,7 @@
+.footerNav {
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

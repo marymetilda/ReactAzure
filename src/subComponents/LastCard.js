@@ -1,21 +1,29 @@
 import React from "react";
 import "./lastCard.css";
+import {LastCardItems} from "../components/jsFiles/constants/lastCardConstants";
 
-function LastCard(props) {
+function LastCard({}) {
   return (
-    <div className="lastCard card">
-      <img
-        className="lastCardIcon"
-        src={props.image}
-        alt="lastCard"
-      />
-      <div className="lastCardTextSection">
-        <span className="lastCardTitle">{props.span}</span>
-        <p className="lastCardText">
-          {props.text}
-        </p>
+    <>
+    {LastCardItems.map((LastCardItem) => {
+       return (
+        <div key={LastCardItem.id} className="lastCard card" style={{backgroundColor: `${LastCardItem.bgc}`}}>
+        <img
+          className="lastCardIcon"
+          src={LastCardItem.image}
+          alt="lastCard"
+        />
+        <div className="lastCardTextSection">
+          <span className="lastCardTitle">{LastCardItem.Span}</span>
+          <p className="lastCardText">
+            {LastCardItem.Text}
+          </p>
+        </div>
       </div>
-    </div>
+      );
+    })
+  }
+  </>
   );
 }
 

@@ -1,0 +1,23 @@
+.mobileApp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #eaebec;
+  color: #4c4c51;
+  text-decoration: none;
+  padding: 12px;
+  
+}
+
+.mobileAppIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.mobileApp span {
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+}

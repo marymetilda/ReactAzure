@@ -2,15 +2,8 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  background-color: #0f2d4b;
-  margin-bottom: 100px;
   height: auto;
-  width: 30%;
-}
-
-.lastCardIcon {
-  height: 48px;
-  width: 48px;
+  padding-right: 18px;
 }
 
 .lastCardTitle {
@@ -33,4 +26,13 @@ margin-top: 12px;
 
 .lastCardTextSection{
     margin-top: 24px;
+}
+
+.card img {
+  height: 48px;
+  width: 48px;
+}
+
+.lastCard:hover .lastCardTitle{
+    text-decoration: underline;
 }

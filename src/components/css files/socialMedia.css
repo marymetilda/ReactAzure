@@ -1,0 +1,13 @@
+.mediaIcon {
+    width: 24px;
+    height: 24px;
+}
+.mediaIcons {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    color: #1a1a1f;
+}
+.socialIcons{
+    margin-left: 24px;
+}

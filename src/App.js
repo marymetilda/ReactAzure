@@ -16,14 +16,15 @@
 import React from 'react'
 import './App.css';
 import Body from './components/jsFiles/Body';
-import Nav from './components/jsFiles/Nav'
-import TestComponent from './components/jsFiles/TestComponent';
+import Nav from './components/jsFiles/Nav';
+import Footer from './components/jsFiles/Footer'
 
 function App() {
   return (
     <div>
      <Nav />
      <Body />
+     <Footer />
     </div>
   )
 }
