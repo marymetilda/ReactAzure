@@ -98,8 +98,8 @@ const footerItems = [
     title: "explore",
     links: [
       { id: 1, item: "what is azure", url:'http://mnbdbf' },
-      { id: 2, item: "what is azure", url:'http://mnbdbf' },
-      { id: 3, item: "what is azure", url:'http://mnbdbf' },
+      { id: 2, item: "hello", url:'http://mnbdbf' },
+      { id: 3, item: "hi azure", url:'http://mnbdbf' },
     ],
   },
   {
