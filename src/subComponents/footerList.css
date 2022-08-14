@@ -1,0 +1,27 @@
+.FooterItems {
+    padding: 2px 0;
+    font-weight: 400;
+line-height: 1.5;
+color: #1a1a1f;
+font-size: 12px;
+font-family: "SegoeUI";
+margin-top: 12px;
+}
+
+.footerHeadlines {
+    font-size: 14px;
+font-weight: 600;
+line-height: 1.3;
+margin: 0 0 9px;
+color: #1a1a1f;
+font-family: "SegoeUI";
+}
+
+.footerSecondSection {
+    margin-top: 36px;
+    display: grid;
+    column-gap: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-template-columns: repeat(6, 1fr);
+}

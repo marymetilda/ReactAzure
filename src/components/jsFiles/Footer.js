@@ -1,15 +1,18 @@
 import React from 'react'
+import FooterList from '../../subComponents/FooterList';
 import "../css files/footer.css"
+import FooterLastSection from './FooterLastSection';
 import FooterNav from './FooterNav';
-import FooterSecondSection from './FooterSecondSection';
+
 
 function Footer() {
   return (
     <div className='footer'>
       <FooterNav />
-      <FooterSecondSection />
+      <FooterList />
+      <FooterLastSection />
     </div>
   )
 }
 
-export default Footer;
+export default Footer; 
