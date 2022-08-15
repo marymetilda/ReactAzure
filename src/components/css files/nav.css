@@ -1,151 +1,175 @@
 :root {
-    --nav-Color: #1a1a1f;
+  --nav-Color: #1a1a1f;
 }
 
+nav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  overflow-x: unset;
+}
+.navSection1 {
+  border: 0;
+  padding: 0 12px;
+  width: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
 
-nav { 
-     display:flex;
-    gap: 13vw;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-     padding: 7px 0 7px 12px;
-    /* background-color: #56d5ef; */
-}
-.navSection1{
-    display: flex;
-    align-items: center;
-    gap: 1.9vw;
+.iconTitle {
+  display: flex;
+  align-items: center;
 }
 
-.navSection2 {
-    display: flex;
-    align-items: center;
-    gap: 2.2vw;
-}
 .navLastSection {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    margin-right: 0.5vw;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-right: 0.5vw;
 }
 
 .icon {
-    height: 1.6rem;
-    width: 1.5rem;
-    margin-right: 1px;
-    margin-top: 1px;
-    cursor: pointer;
+  height: 1.6rem;
+  width: 1.5rem;
+  margin-right: 1px;
+  margin-top: 1px;
+  cursor: pointer;
 }
 
-.title{
-    font-family: "SegoeUI";
-    font-size: 18px;
-    line-height: 0.5;
-    font-weight: 600;
-    cursor: pointer;
-    color: #1a1a1f;
+.title {
+  font-family: "SegoeUI";
+  font-size: 18px;
+  line-height: 0.5;
+  font-weight: 600;
+  cursor: pointer;
+  color: #1a1a1f;
+  margin-left: 24px;
 }
 
-.title:hover{
-    text-decoration: underline;
+.title:hover {
+  text-decoration: underline;
 }
 
 .navitems1 {
-    display: flex;
-    gap: .5vw;
+  margin-left: 24px;
+  display: inline-flex;
 }
-
-.navItems2 {
-    display: flex;
-    gap: 1.4vw;
+.items {
+  align-items: center;
+  display: flex;
+  line-height: 1;
+  margin: 0;
+  font-size: 13px;
+  color: #1a1a1f;
+  font-family: "SegoeUI";
+  font-weight: 400;
+  padding: 16px 8px;
+  cursor: pointer;
 }
 
 .fa-angle-right {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
-
-.navItems{
-    font-size: 13px;
-    font-family: "SegoeUI";
-    cursor:pointer;
-    white-space: nowrap;
-    color: var(--nav-Color);
-    opacity: 0.9;
+.navItems {
+  font-size: 13px;
+  font-family: "SegoeUI";
+  cursor: pointer;
+  white-space: nowrap;
+  color: var(--nav-Color);
+  opacity: 0.9;
+  padding: 16px 8px;
 }
-.navItems:hover{
-    text-decoration: underline;
+.navItems:hover {
+  text-decoration: underline;
 }
 
 .searchbar {
-    width: 120px;
-    background-color: #f8f9fa;
-    display: flex;
-    align-items: center;
-    border: 1px solid #747479;
-    border-radius: 4px;
-    height: 32px;
-    box-sizing: border-box;
-    margin-bottom: 1px;
-    padding-bottom: 2px;
- 
+  width: 120px;
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  color: #1a1a1f;
+  font-size: 15px;
+  font-family: "SegoeUI";
+  font-weight: 400;
+  line-height: 1.5;
+  transition: width 200ms ease-in;
+  justify-content: flex-start;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #747479;
+  color: #4c4c51;
+  font-size: 13px;
+  padding-left: 12px;
+  padding-right: 24px;
+  min-height: 32px;
+  position: relative;
 }
-
 
 .search {
-    width:90px;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    color: #4c4c51;
-    font-size: 13px;
-    padding-left: 12px;
-    min-height: 32px;
-    font-family: "SegoeUI";
+  width: 90px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #4c4c51;
+  font-size: 13px;
+  min-height: 32px;
+  font-family: "SegoeUI";
 }
-.searchIcon{
-    width: 14px;
-    height: 14px;
-    margin-left: 2px;
+.searchIcon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+  margin-left: 2px;
 }
-
 
 .closeIcon {
-    width: 60px;
-    height: 60px;
-    color: #747479;
-    display: none;
+  width: 60px;
+  height: 60px;
+  color: #747479;
+  display: none;
+}
+
+.navSection2{
+    display: flex;
+align-items: center;
 }
 
 .navAccount {
-    font-family: "SegoeUI";
-    font-size: 12px;
-    font-weight: 600;
-    height: 32px;
+  font-family: "SegoeUI";
+  font-size: 12px;
+  font-weight: 600;
+  height: 32px;
+  padding: 0;
 }
 
 .account {
-    background-color: #89c402;
-    padding: 6px 9px;
-    border: 1px solid #6f9e02;
-    border-radius: 4px;
-    cursor: pointer;
-    color: #1a1a1f;
-    text-rendering: optimizeLegibility;
+  background-color: #89c402;
+  padding: 5px 9px;
+  border: 1px solid #6f9e02;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1a1a1f;
+  text-rendering: optimizeLegibility;
 }
 .account:hover {
-    text-decoration: underline;
-    background-color: #9bdd02;
+  text-decoration: underline;
+  background-color: #9bdd02;
 }
 
-.signIn {
-    font-family: "SegoeUI";
-    font-size: 14px;
-    cursor: pointer;
-    color: var(--nav-Color);
-}
+/* .signIn {
+  font-family: "SegoeUI";
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--nav-Color);
+} */
 .signIn:hover {
-    text-decoration: underline;
-    
+  text-decoration: underline;
 }

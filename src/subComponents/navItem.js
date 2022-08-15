@@ -4,7 +4,7 @@ import "./navItem.css";
 
 function NavItem() {
   return (
-    <>
+    <div className="navitems1">
       <div className="items navExplore">
         <span className="navItem explore">Explore </span>
         <MdKeyboardArrowDown className="arrow" />
@@ -29,7 +29,7 @@ function NavItem() {
         <span className="navItem resources">Resources </span>
         <MdKeyboardArrowDown  className="arrow" />
       </div>
-    </>
+    </div>
   );
 }
 

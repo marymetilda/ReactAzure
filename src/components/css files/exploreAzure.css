@@ -16,3 +16,11 @@
     height: 20px;
     width: 20px;
 }
+
+.exploreAzure:hover{
+    text-decoration: underline;
+}
+
+.exploreAzure:hover .arrow-left{
+    margin-left: 3px;
+}
