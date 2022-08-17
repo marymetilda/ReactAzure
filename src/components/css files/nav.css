@@ -158,18 +158,74 @@ align-items: center;
   cursor: pointer;
   color: #1a1a1f;
   text-rendering: optimizeLegibility;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .account:hover {
   text-decoration: underline;
   background-color: #9bdd02;
 }
 
-/* .signIn {
-  font-family: "SegoeUI";
-  font-size: 14px;
-  cursor: pointer;
-  color: var(--nav-Color);
-} */
+.title a{
+  text-decoration: none;
+  color:inherit;
+}
+.navLastItem a{
+  text-decoration: none;
+}
+
+
 .signIn:hover {
   text-decoration: underline;
+}
+
+
+.account a{
+  text-decoration: none;
+}
+
+.signIn a{
+  text-decoration: none;
+}
+
+.threeDots{
+  display: none;
+}
+.searchIconMobile{
+  display: none;
+}
+
+@media screen and (max-width:1280px){
+  .searchbar{
+    display: none;
+  }
+
+  .navLastItem{
+    display: none;
+  }
+
+  .account {
+    display: none;
+  }
+
+  .searchIconMobile {
+    display: flex;
+    padding: 20px 8px;
+      
+  }
+  .signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navSection2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .threeDots{
+    display: flex;
+    padding: 20px 8px;
+    cursor: pointer;
+  }
 }

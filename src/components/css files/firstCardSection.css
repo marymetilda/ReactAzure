@@ -1,9 +1,9 @@
 .firstCardSection {
-  display: grid;
-  column-gap: 30px;
-  row-gap: 30px;
+  display: flex;
+    column-gap: 30px;
   margin: 0;
-  grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 36px 15px 0px 15px;
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-top: 36px;
 }

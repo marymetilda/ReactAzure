@@ -1,38 +1,49 @@
 .bannerButtons {
-    margin-top: 24px;
-    display: flex;
-    align-items: center;
-  }
-  .button1 {
-    color: #fff;
-    background-color: #0078d4;
-    border: 1px solid #0078d4;
-    margin-right: 24px;
-    margin-top: 12px;
-    margin-bottom: 0;
-  }
-  .button2 {
-    color: #0078d4;
-    background-color: transparent;
-    border: 1px solid #0078d4;
-    margin-top: 12px;
-    
-  }
-.button2:hover {
-  background-color: #0078d4;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.button1 {
   color: #fff;
+  background-color: #0078d4;
+  border: 1px solid #0078d4;
+  margin-right: 24px;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
+.button1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.button2 {
+  color: #0078d4;
+  background-color: transparent;
+  border: 1px solid #0078d4;
+  margin-top: 12px;
+}
 
-  .buttons {
-    padding: 10px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "SegoeUI";
-    font-size: 14px;
-    font-weight: 600;
-  }
-  .buttons:hover {
-    text-decoration: underline;
-  }
-  
+.button2 a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background-color: #0078d4;
+}
+.button2:hover a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.buttons {
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "SegoeUI";
+  font-size: 14px;
+  font-weight: 600;
+}
+.buttons:hover {
+  text-decoration: underline;
+}
