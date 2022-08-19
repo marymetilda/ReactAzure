@@ -30,4 +30,14 @@ const CustText = {
   gel: "GE Digital helps pilots make the skies safer with data and analytics provided through its FlightPulse app—built using the open-source.NET platform.",
 };
 
-export { CustIcon, CustImg, CustText };
+const CustClassNames = [
+  {id:1, class: "forza"},
+  {id:2, class: "NHS"},
+  {id:3, class: "NBA"},
+  {id:4, class: "ACS"},
+  {id:5, class: "pepsi"},
+  {id:6, class: "gel"},
+
+]
+
+export { CustIcon, CustImg, CustText, CustClassNames};

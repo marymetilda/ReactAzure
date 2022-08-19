@@ -24,6 +24,8 @@ function Banner() {
           <BannerButtons />
         </div>
       </div>
+      <div className="psudoIntro">
+      </div>
     </div>
   );
 }

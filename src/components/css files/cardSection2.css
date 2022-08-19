@@ -1,6 +1,7 @@
 .cardSection2{
     display: grid;
     row-gap: 24px;
+    width:45vw;
 }
 
 .cardImage {
@@ -9,7 +10,6 @@
 }
 .cardTextSection {
     padding-left: 12px;
-    width: 33vw;
 }
 
 .cardHeadline {

@@ -38,15 +38,17 @@ function Discover() {
   };
 
   return (
+  
     <div className="discover">
       <div className="mainTitle">
         <span className="discoverHeadline">
           Discover what's happening on Azure
         </span>
       </div>
-
+      <div>
       <div className="discoverCardSection1">
-        <div className="disCar1">
+        <div className="discoverCarSec1">
+        <div className="disCar">
         <DiscoverCard1 
           cardImage={cardImages.directory}
           cardHeadline={cardHeadlines.directory}
@@ -54,7 +56,7 @@ function Discover() {
         />
         </div>
 
-        <div className="disCar2">
+        <div className="disCar">
         <DiscoverCard1 
           cardImage={cardImages.microsoft}
           cardHeadline={cardHeadlines.microsoft}
@@ -62,14 +64,16 @@ function Discover() {
         />
         </div>
 
-      <div className="disCar3">
+      <div className="disCar">
         <DiscoverCard2 
           BackgroundImage={cardImages.innovate}
           cardSpan={cardTexts.innovate}
         />
         </div>
+        </div>
 
-      <div className="disCar4">
+<div className="discoverCarSec2">
+      <div className="disCar">
         <DiscoverCard1 
           cardImage={cardImages.arc}
           cardHeadline={cardHeadlines.arc}
@@ -77,20 +81,22 @@ function Discover() {
         />
         </div>
 
-      <div className="disCar5">
+      <div className="disCar">
         <DiscoverCard2 
           BackgroundImage={cardImages.beyond}
           cardSpan={cardTexts.beyond}
         />
         </div>
 
-        <div className="disCar6">
+        <div className="disCar">
         <DiscoverCard1 
           cardImage={cardImages.sap}
           cardHeadline={cardHeadlines.sap}
           cardText={cardTexts.sap}
         />
         </div>
+        </div>
+      </div>
       </div>
     </div>
   );

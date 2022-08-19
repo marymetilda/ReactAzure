@@ -65,3 +65,9 @@
 .arrowTextSection1{
     display: none;
 }
+
+@media screen and (max-width: 920px) {
+    .screenMain{
+        display: none;
+    }
+}

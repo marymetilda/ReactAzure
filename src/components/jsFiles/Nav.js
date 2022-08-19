@@ -3,13 +3,16 @@ import NavItem from "../../subComponents/navItem";
 import "../css files/nav.css";
 import { VscSearch } from "react-icons/vsc";
 import { VscClose } from "react-icons/vsc";
-import {BsThreeDots} from "react-icons/bs";
+import {BsThreeDots, BsList} from "react-icons/bs";
+
+
 
 function Nav() {
   return (
     <nav>
       <div className="navSection1">
         <div className="iconTitle">
+          <BsList className="burgerIcon"/>
           <div className="icon">
             <a href="https://www.microsoft.com/en-in/">
               <svg
@@ -45,7 +48,9 @@ function Nav() {
             </a>
           </div>
         </div>
+        <div className="navItemSection">
         <NavItem />
+        </div>
       </div>
 
       <div className="searchbar">

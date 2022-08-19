@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+.psudoIntro{
+  display: none;
+}
 
 .intro {
   background-image: url("https://azurecomcdn.azureedge.net/cvt-d9e2936c5d33a39347dec22866d20dc9fa13c06e112314a34f7b7eb57cee8dbb/images/page/home/hero-desktop.webp");
@@ -43,4 +46,28 @@
   line-height: 1.3;
   font-family: "SegoeUI";
   margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+.psudoIntro{
+  display: flex;
+  background-image: url(https://azurecomcdn.azureedge.net/cvt-cd24f2038a3ec39e7dea992ae30350f7a520924392308b38683f844d992be1ed/images/page/home/hero-image-color.png);
+  height: 48vw;;
+}
+  .intro {
+    background-image: url(https://azure.microsoft.com/images/page/home/hero-tablet.jpg);
+    position: relative;
+  }
+  .introTextSection{
+    position: absolute;
+    width: 75%;
+    bottom: -357px;
+    left: 36px;
+  }
 }

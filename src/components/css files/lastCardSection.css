@@ -4,3 +4,11 @@
     column-gap: 30px;
     padding: 60px 15px;
 }
+
+@media screen and (max-width: 920px){
+.cardSectionLast{
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+}

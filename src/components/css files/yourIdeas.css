@@ -13,6 +13,7 @@ padding-right: .9375rem;
     margin-top: 48px;
     padding-left: 10px;
     display: flex;
+    overflow: hidden;
 }
 
 .cardsAndTexts {

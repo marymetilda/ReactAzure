@@ -4,6 +4,7 @@ import CustomerIcon from "../../subComponents/customerIcon";
 import CustomerImages from "../../subComponents/customerImages";
 import CustomerText from "../../subComponents/customerText";
 import {CustIcon, CustImg,CustText} from "./constants/findConstants";
+import Dots from "./Dots";
 
 function Find() {
 
@@ -79,6 +80,9 @@ function Find() {
         <div className="customerText">
           <CustomerText custTxt={CustText.gel} />
         </div>
+      </div>
+      <div className="dotSection">
+        <Dots />
       </div>
     </div>
   );

@@ -1,27 +1,60 @@
 .FooterItems {
-    padding: 2px 0;
-    font-weight: 400;
-line-height: 1.5;
-color: #1a1a1f;
-font-size: 12px;
-font-family: "SegoeUI";
-margin-top: 12px;
+  padding: 2px 0;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1a1a1f;
+  font-size: 12px;
+  font-family: "SegoeUI";
+  margin-top: 12px;
 }
 
 .footerHeadlines {
-    font-size: 14px;
-font-weight: 600;
-line-height: 1.3;
-margin: 0 0 9px;
-color: #1a1a1f;
-font-family: "SegoeUI";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 9px;
+  color: #1a1a1f;
+  font-family: "SegoeUI";
 }
 
 .footerSecondSection {
-    margin-top: 36px;
-    display: grid;
-    column-gap: 24px;
-    padding-left: 18px;
-    padding-right: 18px;
-    grid-template-columns: repeat(6, 1fr);
+  margin-top: 36px;
+  display: grid;
+  column-gap: 24px;
+  padding-left: 18px;
+  padding-right: 18px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.plusSign{
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+  .footerSecondSection {
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 40px;
+  }
+  .FooterItems{
+    display: none;
+  }
+  .footHeadSection{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid transparent;
+    background-color: #eaebec;
+    padding: 12px 24px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .plusSign{
+    display: flex;
+  }
 }
