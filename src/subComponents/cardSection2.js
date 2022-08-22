@@ -15,6 +15,13 @@ class CardSection2 extends Component {
   render() {
     return (
       <div className="cardSection2">
+        <div className="cardCommon psudoCard">
+          <img src="https://azurecomcdn.azureedge.net/cvt-34197be086e60dcac17aed601eac83f8c90a57b4da394df264c667cfd8d3d7f5/images/page/home/accelerate-customers-growth-mobile.webp" className="cardImage" alt="psudoImg" />
+          <div className="cardTextSection">
+            <span className="cardHeadline">Accelerate your customers' growth-and your own</span>
+            <p></p>
+          </div>
+        </div>
         <div className="cardCommon firstCard">
           <img
             src="https://azurecomcdn.azureedge.net/cvt-f3473e70fd785159419fc0a92a7d821efcd1dbb882464b3ad7c37d7d4e3514bd/images/page/home/empower.webp"

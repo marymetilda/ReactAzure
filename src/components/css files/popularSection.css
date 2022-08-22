@@ -58,3 +58,22 @@ li {
 .allProduct:hover .arrowProduct{
     margin-left: 0.3rem;
 }
+.popularSec{
+  display: none;
+}
+
+@media screen and (max-width: 767px){
+  .popularSection{
+    display: none;
+  }
+
+  .popularSec{
+    display: inline-block;
+  }
+  .popCard{
+    width: 100%;
+    padding:0;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+}

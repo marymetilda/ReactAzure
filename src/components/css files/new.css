@@ -31,3 +31,13 @@
     text-decoration: underline;
     color:#fff;
 }
+
+
+@media screen and (max-width: 767px){
+    .new{
+        flex-direction: column;
+    }
+    .new span{
+        margin-right: 0;
+    }
+}

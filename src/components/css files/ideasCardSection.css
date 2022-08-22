@@ -8,3 +8,32 @@
     grid-template-rows: 1fr 1fr;
     
 }
+.psudoPopular{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .ideasCardSection{
+        width: 100%;
+    }
+
+    .psudoPopular{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        background-color: #fff;
+        padding:10px;
+    }
+    .headline{
+        color:#1a1a1f;
+    }
+}
+
+
+
+
+
+
+
+

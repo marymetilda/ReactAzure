@@ -89,6 +89,9 @@ nav {
 .navItems:hover {
   text-decoration: underline;
 }
+.icon1{
+  display: none;
+}
 
 .searchbar {
   width: 120px;
@@ -256,17 +259,33 @@ align-items: center;
       display: flex;
       align-items: center;
   }
-
-  .nav_section_1_1{
+  .icon{
+    display: none;
+  }
+  .icon1{
+    display: block;
+    margin-right: 30%;
+  }
+  
+  .navSection1{
       flex-direction: row-reverse;
       gap:25vw;
   }
 
-  .three_dots{
+  .threeDots{
       display:none;
   }
 
-  .nav_section_2_4{
-      margin-right:24px;
+}
+
+@media screen and (max-width:416px){
+  .icon1{
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width:350px){
+  .icon1{
+    margin-right: 10%;
   }
 }

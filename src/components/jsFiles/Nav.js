@@ -53,6 +53,34 @@ function Nav() {
         </div>
       </div>
 
+      <div className="icon icon1">
+            <a href="https://www.microsoft.com/en-in/">
+              <svg
+                aria-hidden="true"
+                role="presentation"
+                data-slug-id="microsoft-square"
+                viewBox="0 0 26 25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.5708 0.981934H0.907471V12.3682H12.5708V0.981934Z"
+                  fill="#F25022"
+                ></path>
+                <path
+                  d="M25.4625 0.981934H13.7992V12.3682H25.4625V0.981934Z"
+                  fill="#7FBA00"
+                ></path>
+                <path
+                  d="M12.5708 13.5649H0.907471V24.9512H12.5708V13.5649Z"
+                  fill="#00A4EF"
+                ></path>
+                <path
+                  d="M25.4629 13.5649H13.7996V24.9512H25.4629V13.5649Z"
+                  fill="#FFB900"
+                ></path>
+              </svg>
+            </a>
+          </div>
       <div className="searchbar">
         <input type="search" className="search" placeholder="Search" />
         <VscSearch className="searchIcon" />

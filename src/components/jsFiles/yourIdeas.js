@@ -1,6 +1,6 @@
 import React from "react";
 import "../css files/yourIdeas.css"
-import PopularSection from "../../subComponents/.popularSection";
+import PopularSection from "../../subComponents/popularSection";
 import IdeasCardSection from "../../subComponents/ideasCardSection";
 import IdeasImage from "../../subComponents/ideasImage";
 
@@ -12,7 +12,7 @@ function YourIdeas(){
             </div>
             <div className="ideasSecondSection">
                  <div className="cardsAndTexts">
-                <PopularSection />
+                <PopularSection className="popularSection" />
                 <IdeasCardSection />
                 </div>
                 <IdeasImage />
